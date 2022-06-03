@@ -1,0 +1,12 @@
+name: 'Production Release Testing Script'
+description: 'Greet someone and record the time'
+inputs:
+  release-tag: # id of input
+    description: 'Relase tag to label the new document'
+    required: true
+  client_id:
+    description: 'Google Docs API client id'
+    required: true
+runs:
+  using: 'node16'
+  main: 'index.js'

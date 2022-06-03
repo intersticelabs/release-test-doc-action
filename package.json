@@ -1,0 +1,21 @@
+{
+  "name": "release-test-doc-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intersticelabs/release-test-doc-action.git"
+  },
+  "keywords": [],
+  "author": "Alex Gonopolskiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/intersticelabs/release-test-doc-action/issues"
+  },
+  "homepage": "https://github.com/intersticelabs/release-test-doc-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.8.2",
+    "googleapis": "^39.2.0"
+  }
+}
